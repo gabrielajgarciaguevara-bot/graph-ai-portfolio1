@@ -15,25 +15,25 @@
             --accent: #ec4899;
             --bg-dark: #0f172a;
         }
-
+ 
         body {
             font-family: 'Inter', sans-serif;
             background-color: var(--bg-dark);
             color: #f8fafc;
             scroll-behavior: smooth;
         }
-
+ 
         h1, h2, h3 {
             font-family: 'Playfair Display', serif;
         }
-
+ 
         .glass {
             background: rgba(255, 255, 255, 0.03);
             backdrop-filter: blur(12px);
             border: 1px solid rgba(255, 255, 255, 0.1);
             border-radius: 1.5rem;
         }
-
+ 
         .mesh-gradient {
             background-color: #0f172a;
             background-image: 
@@ -41,37 +41,37 @@
                 radial-gradient(at 50% 0%, hsla(225,39%,30%,1) 0, transparent 50%), 
                 radial-gradient(at 100% 0%, hsla(339,49%,30%,1) 0, transparent 50%);
         }
-
+ 
         .gradient-text {
             background: linear-gradient(to right, #818cf8, #c084fc, #f472b6);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
-
+ 
         .nav-link {
             transition: all 0.3s ease;
         }
-
+ 
         .nav-link:hover {
             color: #818cf8;
             transform: translateY(-2px);
         }
-
+ 
         .submission-card {
             transition: transform 0.3s ease, border-color 0.3s ease;
         }
-
+ 
         .submission-card:hover {
             transform: translateY(-10px);
             border-color: var(--primary);
         }
-
+ 
         .badge {
             background: rgba(99, 102, 241, 0.1);
             border: 1px solid rgba(99, 102, 241, 0.3);
             color: #a5b4fc;
         }
-
+ 
         /* Custom scrollbar */
         ::-webkit-scrollbar {
             width: 8px;
@@ -89,8 +89,7 @@
     </style>
 </head>
 <body class="mesh-gradient min-h-screen">
-
-    <!-- Navigation -->
+ 
     <nav class="fixed top-0 w-full z-50 px-6 py-4">
         <div class="max-w-6xl mx-auto glass px-8 py-3 flex justify-between items-center">
             <div class="text-xl font-bold tracking-tighter gradient-text">GG.</div>
@@ -107,18 +106,16 @@
             </button>
         </div>
     </nav>
-
-    <!-- Hero Section -->
+ 
     <header class="pt-40 pb-20 px-6">
         <div class="max-w-4xl mx-auto text-center">
-            <!-- Avatar Insertion -->
             <div class="relative inline-block mb-8">
                 <div class="absolute inset-0 bg-indigo-500 rounded-full blur-2xl opacity-20 animate-pulse"></div>
                 <img 
-                    src="https://github.com/gabrielajgarciaguevara-bot/graph-ai-portfolio1/blob/main/WhatsApp%20Image%202026-05-10%20at%2020.52.21.jpeg?raw=true" 
+                    src="https://github.com/gabrielajgarciaguevara-bot/graph-ai-portfolio1/blob/main/WhatsApp%20Image%202026-05-10%20at%2020.52.21.jpeg?raw=true"
                     alt="Gabriela García Guevara" 
                     class="relative w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-white/10 shadow-2xl mx-auto"
-                >
+                 >
             </div>
             
             <div class="block">
@@ -138,8 +135,7 @@
             </div>
         </div>
     </header>
-
-    <!-- About Me Section -->
+ 
     <section id="about" class="py-24 px-6">
         <div class="max-w-6xl mx-auto">
             <div class="grid md:grid-cols-2 gap-16 items-center">
@@ -193,8 +189,7 @@
             </div>
         </div>
     </section>
-
-    <!-- Course Section -->
+ 
     <section id="course" class="py-24 px-6 bg-white/5">
         <div class="max-w-6xl mx-auto">
             <div class="text-center mb-16">
@@ -203,7 +198,6 @@
             </div>
             
             <div class="grid md:grid-cols-3 gap-8">
-                <!-- Module 1 -->
                 <div class="glass p-8">
                     <div class="w-12 h-12 bg-indigo-500/20 rounded-lg flex items-center justify-center mb-6">
                         <svg class="w-6 h-6 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
@@ -211,7 +205,6 @@
                     <h3 class="text-xl font-bold mb-3">Documents & Web</h3>
                     <p class="text-sm text-slate-400 leading-relaxed">Mastering LLMs, Markdown, and building research-focused web presences using no-code AI tools.</p>
                 </div>
-                <!-- Module 2 -->
                 <div class="glass p-8">
                     <div class="w-12 h-12 bg-purple-500/20 rounded-lg flex items-center justify-center mb-6">
                         <svg class="w-6 h-6 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M16 8v8m-4-5v5m-4-2v2m-2 4h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
@@ -219,7 +212,6 @@
                     <h3 class="text-xl font-bold mb-3">Data Analytics</h3>
                     <p class="text-sm text-slate-400 leading-relaxed">Automating data cleaning and visualization using ChatGPT Plus and Advanced Data Analysis features.</p>
                 </div>
-                <!-- Module 3 -->
                 <div class="glass p-8">
                     <div class="w-12 h-12 bg-pink-500/20 rounded-lg flex items-center justify-center mb-6">
                         <svg class="w-6 h-6 text-pink-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
@@ -243,8 +235,7 @@
             </div>
         </div>
     </section>
-
-    <!-- Submissions Section -->
+ 
     <section id="submissions" class="py-24 px-6">
         <div class="max-w-6xl mx-auto">
             <div class="flex justify-between items-end mb-12">
@@ -253,9 +244,8 @@
                     <p class="text-slate-400">Chronological logs of my progress and implementations.</p>
                 </div>
             </div>
-
+ 
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Week 1 -->
                 <div class="glass p-8 submission-card border border-white/5">
                     <div class="flex justify-between items-start mb-6">
                         <span class="text-xs font-bold text-indigo-400 uppercase tracking-tighter">Week 01</span>
@@ -270,27 +260,28 @@
                         <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                     </a>
                 </div>
-
-                <!-- Week 2 -->
-                <div class="glass p-8 submission-card border border-white/5 opacity-75">
+ 
+                <div class="glass p-8 submission-card border border-white/5">
                     <div class="flex justify-between items-start mb-6">
                         <span class="text-xs font-bold text-purple-400 uppercase tracking-tighter">Week 02</span>
-                        <span class="text-xs text-slate-500">Upcoming</span>
+                        <span class="text-xs text-indigo-500 font-semibold">Completed</span>
                     </div>
-                    <h3 class="text-xl font-bold mb-3">Data Insights</h3>
+                    <h3 class="text-xl font-bold mb-3">Workshop 2: Automated Data Analysis</h3>
                     <p class="text-slate-400 text-sm mb-6 leading-relaxed">
-                        Exploratory data analysis of clinical datasets using automated Python scripts generated by LLMs.
+                        Analyzed Gapminder data to explore relationships between two global indicators (GDP per capita and Life Expectancy) using AI tools.
                     </p>
-                    <span class="text-xs italic text-slate-500">Available soon</span>
+                    <a href="https://github.com/gabrielajgarciaguevara-bot/graph-ai-portfolio1/blob/main/Relationship%20Between%20GDP%20per%20Capita%20and%20Life%20Expectancy%20Worldwide%20in%202020.pdf" target="_blank" class="inline-flex items-center text-sm font-semibold text-purple-400 hover:text-purple-300">
+                        View Project Report (PDF)
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                    </a>
                 </div>
-
-                <!-- Week 3 -->
+ 
                 <div class="glass p-8 submission-card border border-white/5 opacity-75">
                     <div class="flex justify-between items-start mb-6">
                         <span class="text-xs font-bold text-pink-400 uppercase tracking-tighter">Week 03</span>
                         <span class="text-xs text-slate-500">Upcoming</span>
                     </div>
-                    <h3 class="text-xl font-bold mb-3">AI Literatue Synthesis</h3>
+                    <h3 class="text-xl font-bold mb-3">AI Literature Synthesis</h3>
                     <p class="text-slate-400 text-sm mb-6 leading-relaxed">
                         Synthesizing complex rheumatology literature using AI-powered mapping and summarization tools.
                     </p>
@@ -299,8 +290,7 @@
             </div>
         </div>
     </section>
-
-    <!-- Footer / Contact -->
+ 
     <footer id="contact" class="py-20 px-6 border-t border-white/5">
         <div class="max-w-6xl mx-auto">
             <div class="grid md:grid-cols-2 gap-12 mb-16">
@@ -330,7 +320,7 @@
             </div>
         </div>
     </footer>
-
+ 
     <script>
         // Smooth scroll for nav links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
