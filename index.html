@@ -15,25 +15,25 @@
             --accent: #ec4899;
             --bg-dark: #0f172a;
         }
- 
+
         body {
             font-family: 'Inter', sans-serif;
             background-color: var(--bg-dark);
             color: #f8fafc;
             scroll-behavior: smooth;
         }
- 
+
         h1, h2, h3 {
             font-family: 'Playfair Display', serif;
         }
- 
+
         .glass {
             background: rgba(255, 255, 255, 0.03);
             backdrop-filter: blur(12px);
             border: 1px solid rgba(255, 255, 255, 0.1);
             border-radius: 1.5rem;
         }
- 
+
         .mesh-gradient {
             background-color: #0f172a;
             background-image: 
@@ -41,37 +41,37 @@
                 radial-gradient(at 50% 0%, hsla(225,39%,30%,1) 0, transparent 50%), 
                 radial-gradient(at 100% 0%, hsla(339,49%,30%,1) 0, transparent 50%);
         }
- 
+
         .gradient-text {
             background: linear-gradient(to right, #818cf8, #c084fc, #f472b6);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
- 
+
         .nav-link {
             transition: all 0.3s ease;
         }
- 
+
         .nav-link:hover {
             color: #818cf8;
             transform: translateY(-2px);
         }
- 
+
         .submission-card {
             transition: transform 0.3s ease, border-color 0.3s ease;
         }
- 
+
         .submission-card:hover {
             transform: translateY(-10px);
             border-color: var(--primary);
         }
- 
+
         .badge {
             background: rgba(99, 102, 241, 0.1);
             border: 1px solid rgba(99, 102, 241, 0.3);
             color: #a5b4fc;
         }
- 
+
         /* Custom scrollbar */
         ::-webkit-scrollbar {
             width: 8px;
@@ -89,7 +89,7 @@
     </style>
 </head>
 <body class="mesh-gradient min-h-screen">
- 
+
     <nav class="fixed top-0 w-full z-50 px-6 py-4">
         <div class="max-w-6xl mx-auto glass px-8 py-3 flex justify-between items-center">
             <div class="text-xl font-bold tracking-tighter gradient-text">GG.</div>
@@ -106,7 +106,7 @@
             </button>
         </div>
     </nav>
- 
+
     <header class="pt-40 pb-20 px-6">
         <div class="max-w-4xl mx-auto text-center">
             <div class="relative inline-block mb-8">
@@ -115,7 +115,7 @@
                     src="https://github.com/gabrielajgarciaguevara-bot/graph-ai-portfolio1/blob/main/WhatsApp%20Image%202026-05-10%20at%2020.52.21.jpeg?raw=true"
                     alt="Gabriela García Guevara" 
                     class="relative w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-white/10 shadow-2xl mx-auto"
-                 >
+                >
             </div>
             
             <div class="block">
@@ -135,7 +135,7 @@
             </div>
         </div>
     </header>
- 
+
     <section id="about" class="py-24 px-6">
         <div class="max-w-6xl mx-auto">
             <div class="grid md:grid-cols-2 gap-16 items-center">
@@ -189,7 +189,7 @@
             </div>
         </div>
     </section>
- 
+
     <section id="course" class="py-24 px-6 bg-white/5">
         <div class="max-w-6xl mx-auto">
             <div class="text-center mb-16">
@@ -235,7 +235,7 @@
             </div>
         </div>
     </section>
- 
+
     <section id="submissions" class="py-24 px-6">
         <div class="max-w-6xl mx-auto">
             <div class="flex justify-between items-end mb-12">
@@ -244,7 +244,7 @@
                     <p class="text-slate-400">Chronological logs of my progress and implementations.</p>
                 </div>
             </div>
- 
+
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div class="glass p-8 submission-card border border-white/5">
                     <div class="flex justify-between items-start mb-6">
@@ -260,7 +260,7 @@
                         <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                     </a>
                 </div>
- 
+
                 <div class="glass p-8 submission-card border border-white/5">
                     <div class="flex justify-between items-start mb-6">
                         <span class="text-xs font-bold text-purple-400 uppercase tracking-tighter">Week 02</span>
@@ -275,22 +275,25 @@
                         <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
                     </a>
                 </div>
- 
-                <div class="glass p-8 submission-card border border-white/5 opacity-75">
+
+                <div class="glass p-8 submission-card border border-white/5">
                     <div class="flex justify-between items-start mb-6">
                         <span class="text-xs font-bold text-pink-400 uppercase tracking-tighter">Week 03</span>
-                        <span class="text-xs text-slate-500">Upcoming</span>
+                        <span class="text-xs text-indigo-500 font-semibold">Completed</span>
                     </div>
-                    <h3 class="text-xl font-bold mb-3">AI Literature Synthesis</h3>
+                    <h3 class="text-xl font-bold mb-3">Workshop 3: Job Market Data Analysis</h3>
                     <p class="text-slate-400 text-sm mb-6 leading-relaxed">
-                        Synthesizing complex rheumatology literature using AI-powered mapping and summarization tools.
+                        Used LLMs to extract information from job postings, then analyzed the relationships between experience, salary, and programming requirements.
                     </p>
-                    <span class="text-xs italic text-slate-500">Available soon</span>
+                    <a href="https://github.com/gabrielajgarciaguevara-bot/graph-ai-portfolio1/blob/main/Relationship%20Between%20Minimum%20Experience%2C%20Estimated%20Salary%2C%20and%20Data%20Language%20Requirements%20in%20Data%20Analyst%20Job%20Postings.pdf" target="_blank" class="inline-flex items-center text-sm font-semibold text-pink-400 hover:text-pink-300">
+                        View Project Report (PDF)
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
- 
+
     <footer id="contact" class="py-20 px-6 border-t border-white/5">
         <div class="max-w-6xl mx-auto">
             <div class="grid md:grid-cols-2 gap-12 mb-16">
@@ -320,7 +323,7 @@
             </div>
         </div>
     </footer>
- 
+
     <script>
         // Smooth scroll for nav links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
